@@ -5,7 +5,7 @@ require_once('Tinkerforge/IPConnection.php');
 use Tinkerforge\IPConnection;
 use Tinkerforge\TinkerforgeException;
 
-const HOST = 'localhost';
+const HOST = '192.168.2.111';
 const PORT = 4223;
 const SECRET = 'My Authentication Secret!';
 

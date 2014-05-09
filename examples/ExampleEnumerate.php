@@ -1,10 +1,10 @@
 <?php
 
-require_once('Tinkerforge/IPConnection.php');
+require_once('../Tinkerforge/IPConnection.php');
 
 use Tinkerforge\IPConnection;
 
-const HOST = 'localhost';
+const HOST = '192.168.2.111';
 const PORT = 4223;
 
 // Print incoming enumeration
